@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <h1>Oi Icaro</h1>
+    <h1>index</h1>
   )
 }
