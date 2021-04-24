@@ -3,6 +3,11 @@
   height: calc(100vh - 6.5rem);
   padding: 3rem 2rem;
   margin: 0 auto;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display:none
+  }
 
   .thumbnailContainer {
     position: relative;
